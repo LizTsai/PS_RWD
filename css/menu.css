@@ -1,0 +1,120 @@
+nav{
+    position: absolute;
+    top: 0;
+    background: rgba(242, 205, 205, 0.7);
+    
+}
+
+nav > div{
+    height: 80px;
+    padding: 20px 0;
+}
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block; /*還原為原本的寬度*/
+}
+nav li a{
+    color: #525050;
+    padding: 6px 25px;/**/
+    line-height: 30px;/*把a可點擊範圍撐大*/
+    display: block;
+    position: relative;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+nav li a:after{
+    content: "~";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -12px;
+    top: 6px;
+    text-align: center;
+
+}
+nav li:last-of-type a::after{
+    content: "";
+}
+nav li a:hover{
+    color: #c1881e;
+    transform:  scale(1.1);
+    
+}
+.push{
+    display: none;
+}
+
+@media only screen and (min-width:300px) and (max-width:800px){
+    .push{
+        z-index: 5;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.37);
+        position: absolute;/*絕對定位*/
+        top: 15px;
+        right: 15px;
+        content: "";
+        line-height: 50px;
+        font-size: 30px;
+        border-radius: 50%;
+        }
+    .push::before{
+        font-family: "icomoon";
+        content: "\e3c7";
+        color: #812929;
+    }
+    .push.open::before{
+        font-family: "icomoon";
+        content: "\e90f";
+        color: #812929;
+    }
+    nav{
+        position: relative;
+        z-index: 1;
+        background-color: #fff;
+    }
+    nav li{
+        display: block;
+    }
+    nav > div{
+    height: auto;
+    padding: 20px 0;
+    }   
+    .menu{
+        display: none;
+        float: left;
+        height: auto;
+        background-color: #c7d490;
+    }
+    .menu ul{
+        float: left;
+        width: 100%;
+        display: block;
+        padding: 30px 20px;
+    }
+    .menu li:after{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 6px;
+        margin: 0 auto;
+        background-color: rgba(129, 41, 41, 0.79);
+    }
+    
+    nav li a:after{
+    content: "";
+    display: none;
+    }
+    
+    .menu li:last-of-type:after{
+        content: "";
+        display: none;
+    }
+}

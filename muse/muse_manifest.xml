@@ -1,0 +1,58 @@
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1475758757574">
+  <folder name="css">
+    <file name="site_global.css" crc="422415861"/>
+    <file name="index.css" crc="3848753574" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="jquery.smoove.js" crc="456867617" mt="1472727838000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index"/>
+    <file name="museutils.js" crc="521960461" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4038615763" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="220831917" ref="index"/>
+    <file name="musewpslideshow.js" crc="224651946" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="276313855" ref="index"/>
+    <file name="touchswipe.js" crc="325405309" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="index"/>
+    <file name="jquery.musemenu.js" crc="397543671" ref="index"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="a-主版-favicon.ico" crc="4229063908" ref="index"/>
+    <file name="slider1.jpg" crc="410664687" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="slider2.jpg" crc="3778001131" ref="index"/>
+    <file name="text.png" crc="109344383" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="icon-1.svg" crc="211227905" ref="index"/>
+    <file name="icon-1_poster_u256.png" crc="3950837697" ref="index"/>
+    <file name="muwhite.jpg" crc="207891498" ref="index"/>
+    <file name="inframe1.jpg" crc="4165971836" ref="index"/>
+    <file name="inframe2.jpg" crc="83636598" ref="index"/>
+    <file name="inframe3.jpg" crc="4112573334" ref="index"/>
+    <file name="inframe4.jpg" crc="4223354781" ref="index"/>
+    <file name="inframe1212x141.jpg" crc="4053983548" ref="index"/>
+    <file name="inframe2212x141.jpg" crc="128865551" ref="index"/>
+    <file name="inframe3212x141.jpg" crc="4087128289" ref="index"/>
+    <file name="inframe4212x141.jpg" crc="381945467" ref="index"/>
+    <file name="jp_gmfu_autumn-at-mount-fuji_11.jpg" crc="367661811" ref="index"/>
+    <file name="raw-sushi-1320562.jpg" crc="342263099" ref="index"/>
+    <file name="story-square.png" crc="4160733577" ref="index"/>
+    <file name="star-1-u642-fr.png" crc="152667538" ref="index"/>
+    <file name="japan-1093971_1920.jpg" crc="4028180823" ref="index"/>
+    <file name="slidshow10.jpg" crc="152169791" ref="index"/>
+    <file name="slidshow02.jpg" crc="158229662" ref="index"/>
+    <file name="slidshow09.jpg" crc="4168854956" ref="index"/>
+    <file name="slidshow1.jpg" crc="348583187" ref="index"/>
+    <file name="hokaido-956682_960_720.jpg" crc="306554167" ref="index"/>
+    <file name="u840-17.png" crc="358274114" ref="index"/>
+    <file name="u840-17-r.png" crc="4265825681" ref="index"/>
+    <file name="u840-17-m.png" crc="472278213" ref="index"/>
+    <file name="u840-17-fs.png" crc="193383525" ref="index"/>
+    <file name="captcha.png" crc="3972111057" ref="index"/>
+  </folder>
+  <file name="index.html" crc="429124167" mt="1475758741305" redirect="true"/>
+</manifest>

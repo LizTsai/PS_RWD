@@ -1,0 +1,33 @@
+@import url("../uikit/css/components/slideshow.almost-flat.min.css");
+@import url("../uikit/css/components/dotnav.min.css");
+
+.logo{
+    width: 60px;
+    height: 60px;
+    content: " ";
+    background: url("../images/icon-1.svg") no-repeat 50% 50%;
+    -webkit-background-size: 60px;
+    background-size: 60px;
+}
+.uk-slideshow >li{
+    width: 100%;
+    height: 80vh;/*螢幕的百分比*/
+    min-height: 60vmin;/*手機頁面旋轉後保證slider不會低於此值*/
+    overflow: hidden;
+    content: " ";
+    position: absolute;
+    top:0; left: 0; 
+}
+.uk-position-bottom{
+    padding-bottom: 50px;
+}
+.ct-ellipsis{
+    display: block;/*needed*/
+    overflow: hidden;/*超過的部分隱藏*/
+    white-space: nowrap;/*超過的部分換行*/
+    text-overflow: ellipsis;/*以下是30個文字...*/
+}
+.ct-mh-60{
+    height: 60vh;
+    min-height: 400px;/*因為沒寫固定，所以若內部文字超過仍會延伸*/
+}

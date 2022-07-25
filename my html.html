@@ -1,0 +1,59 @@
+<body>
+    <div id="page">
+        <header class="gw-12 omega pos-r">
+            <div class="div banner gw-12 omega no-pd pos-r">
+                <div class="gw-12 omega cycle2">
+                    <div class="gw-12 omega cycle uno"></div>
+                    <div class="gw-12 omega cycle due"></div>
+                </div>
+                <div class="mask"></div>
+                <div class="gw-12 omega ab-top">
+                    <div class="container cf">
+                        <h1 class="logo ta-c">
+                            <span class=""></span>
+                            <span class="block en">liz in Japan</span>
+                            <span class="">跟著麗茲玩日本</span>
+                        </h1>
+                    </div>
+                </div>
+                <!--ab-top-->
+            </div>
+            <!--banner-->
+            <div class="controls">
+                <div class="prev icon-navigate_before">&lt;</div>
+                <div class="next icon-navigate_after">&gt;</div>
+            </div>
+            <!--controls-->
+        </header>
+
+
+
+
+
+
+
+
+        <nav class="gw-12 omega"></nav>
+        <main class="gw-12 omega"></main>
+        <footer class="gw-12 omega"></footer>
+    </div>
+
+    <!--相對路徑-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.cycle2.js"></script>
+
+    <script>
+        $(function() {
+            $(".cycle2").cycle({
+
+                slides: $(".cycle"),
+                fx: "scrollHorz",
+                next: $(".next"),
+                prev: $(".prev"),
+
+            });
+
+        });
+    </script>
+
+</body>
